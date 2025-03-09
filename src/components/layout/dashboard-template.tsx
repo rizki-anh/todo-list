@@ -12,7 +12,7 @@ interface DashboardComponent extends React.FC<{ children?: React.ReactNode }> {
 
 const Dashboard: DashboardComponent = ({ children }) => {
   return (
-    <div>
+    <div className="">
       {children} {/* Agar bisa menerima elemen turunan */}
     </div>
   );
