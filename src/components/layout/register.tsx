@@ -75,7 +75,7 @@ const Register = () => {
       icon: "line-md:account",
       dataregister: "firstname",
     },
-    {
+    { 
       name: "Enter Last Name",
       type: "text",
       icon: "wpf:name",

@@ -2,6 +2,7 @@ import Input from "../elements/input";
 import Icon from "../elements/icon";
 import Button from "../elements/button";
 import Filter from "../filter/filter";
+import "../../../styles/dashboard.css"
 import React from "react";
 
 interface DashboardComponent extends React.FC<{ children?: React.ReactNode }> {
@@ -12,8 +13,13 @@ interface DashboardComponent extends React.FC<{ children?: React.ReactNode }> {
 
 const Dashboard: DashboardComponent = ({ children }) => {
   return (
-    <div className="">
-      {children} {/* Agar bisa menerima elemen turunan */}
+    <div className="container">
+      <div
+        className="grid w-screen h-screen grid-cols-[330px_1fr] grid-rows-[100px_1fr] gap-4"
+        id="dashboard"
+      >
+        {children} {/* Agar bisa menerima elemen turunan */}
+      </div>
     </div>
   );
 };
@@ -21,16 +27,24 @@ const Dashboard: DashboardComponent = ({ children }) => {
 const Headers: React.FC = () => {
   return (
     <>
-      <h1>test</h1>
+      <div className="bg-[#F8F8F8]" id="header"></div>
     </>
   );
 };
 
 const Sidebar = () => {
-  return <></>;
+  return (
+    <>
+      <div className="bg-[#FF6767]" id="sidebar"></div>
+    </>
+  );
 };
 const Content = () => {
-  return <></>;
+ return (
+   <>
+     <div className="" id="content"></div>
+   </>
+ );
 };
 
 Dashboard.Headers = Headers;
