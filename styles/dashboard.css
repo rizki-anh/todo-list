@@ -1,0 +1,14 @@
+#dashboard{
+grid-template-areas: "header header"
+"sidebar content";
+
+}
+#header{
+grid-area: header;
+}
+#sidebar{
+grid-area: sidebar;
+}
+#content{
+grid-area: content;
+}
