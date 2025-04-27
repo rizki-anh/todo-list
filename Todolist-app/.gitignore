@@ -1,0 +1,15 @@
+# Global ignores
+.DS_Store
+.env
+*.log
+
+# Ignore node_modules & build artifacts di semua subfolder
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.turbo/
+
+# Optional: Ignore IDE/editor
+.vscode/
+.idea/

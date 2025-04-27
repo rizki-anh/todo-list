@@ -1,0 +1,25 @@
+[
+  {
+    "tanggal": "2025 april 2025",
+    "judul": "Belajar React hooks",
+    "deskripsi": "Mendalami konsep dan implementasi React Hooks seperti useState untuk manajemen state lokal, useEffect untuk side effects, useContext untuk state global, dan hook kustom untuk logika yang dapat digunakan kembali.",
+    "image" : "./CatatanReactHooks.png",
+    "priority": "medium",
+    "status": "in progress"
+  },
+  {
+    "judul": "kencan sama nining  ",
+    "deskripsi": "Meluangkan waktu khusus untuk kencan bersama Mahmudah, mungkin makan malam, menonton film, atau sekadar berjalan-jalan santai untuk mempererat hubungan.",
+    "image" : "./sayang.png",
+    "priority": "high",
+    "status": "in progress"
+
+  },
+  {
+    "judul": "meeting harian tim developer",
+    "deskripsi": "Mengikuti rapat sinkronisasi harian (daily stand-up) dengan tim developer untuk melaporkan progres tugas kemarin, rencana hari ini, dan mengidentifikasi hambatan (blocker) yang mungkin ada.",
+    "image" : "./meeting.jpeg",
+    "priority": "low",
+    "status": "not started"
+  }
+]
