@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "activity": "Desain ulang tampilan halaman login",
+    "priority": "high",
+    "image": "./Focused Design Session.png",
+    "timestamp": "2025-04-10T09:30:00Z",
+    "isRead": false
+  },
+  {
+    "id": 2,
+    "activity": "Buat catatan materi React Hooks",
+    "priority": "medium",
+    "image": "./CatatanReactHooks.png",
+    "timestamp": "2025-04-09T14:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": 3,
+    "activity": "Refactor komponen sidebar di reactjs",
+    "priority": "low",
+    "image": "./refactor.png",
+    "timestamp": "2025-04-08T16:20:00Z",
+    "isRead": true
+  },
+  {
+    "id": 4,
+    "activity": "Meeting mingguan dengan tim UI/UX",
+    "priority": "medium",
+    "image": "./Creative Design in Progress.png",
+    "timestamp": "2025-04-07T10:00:00Z",
+    "isRead": true
+  }
+]
