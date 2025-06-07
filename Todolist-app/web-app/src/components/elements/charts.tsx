@@ -32,7 +32,7 @@ export default function RadialChart({name,value, fill} : RadialChartProps) {
           data={datajson}
           startAngle={90}
           endAngle={450}
-          clockwise // Move the clockwise prop here
+           // Move the clockwise prop here
         >
           <PolarAngleAxis
             type="number"

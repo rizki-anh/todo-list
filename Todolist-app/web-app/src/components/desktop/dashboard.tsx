@@ -26,7 +26,7 @@ const Dashboard: React.FC & {
   );
 };
 
-const Article: React.FC = () => {
+const Article = () => {
   const [isOpen, setIsOpen] = useState<string | null>(null);
   const [inputValue, setInputValue] = useState("");
   const [datavalue, setDataValue] = useState<{ nama: string; photo: string }[]>(
@@ -259,15 +259,23 @@ const Article: React.FC = () => {
                       <div className="w-3 h-3 rounded-full border-2 bg-transparent border-green-400"></div>
                       <h1>{gambar.judul2}</h1>
                     </div>
-                    <div className="flex flex-col pl-2 flex-wrap w-[183px] h-[34px]">
-                      <p>{gambar.teks1}</p>
+                    <div className="flex flex-col pl-3 flex-wrap w-[183px] h-[34px]">
+                      <p className="text-sm">{gambar.teks1}</p>
                     </div>
-                    <div className="w-[88px] h-[88px] bg-black absolute left-66  top-5 "></div>
+                    <div className="w-[88px] h-[88px] bg-black absolute left-66  top-5 ">
+                      <img src={gambar.gambar1} alt="welcome"  className="object-cover"/>
+                    </div>
                   </div>
                   <div className="w-[378px] h-[134px] bg-white border-2 border-gray-300 rounded-lg shadow-sm  drop-shadow-lg">
                     <div className="flex p-2 items-center gap-2">
                       <div className="w-3 h-3 rounded-full border-2 bg-transparent border-green-400"></div>
                       <h1>{gambar.judul1}</h1>
+                    </div>
+                    <div className="w-[183px] h-[34px] flex flex-col pl-3">
+                      <p className="text-sm">{gambar.teks2}</p>
+                    </div>
+                    <div className="w-[88px] h-[88px] bg-black absolute left-66 top-5">
+                      <img src={gambar.gambar2} alt=""  className="object-cover"/>
                     </div>
                   </div>
                 </div>

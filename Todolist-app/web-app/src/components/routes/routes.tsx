@@ -3,7 +3,7 @@ import Error404 from "../pages/Error404";
 import LoginPages from "../pages/loginpages";
 import RegisterPage from "../pages/Registerpages";
 import Dashboard from "../pages/dashboard";
-import Vital from "../pages/vital";
+import Vital from "../pages/vitaltask";
 
 export const AppRoutes = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ export const AppRoutes = createBrowserRouter([
   {
     element: <Vital />,
     errorElement: <Error404 />,
-    path: "/vital",
+    path: "/vitaltask",
   },
 ]);
 

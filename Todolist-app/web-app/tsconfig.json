@@ -1,7 +1,33 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "jsx": "react-jsx",
+    "experimentalDecorators": true,
+    /* Modules */
+    "module": "es2020",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@*": ["./src/*"]
+    },
+    "types": ["node", "vite/client"],
+    /* Emit */
+    "sourceMap": true,
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    /* Completeness */
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types", "./src/global.d.ts"]
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
 }
